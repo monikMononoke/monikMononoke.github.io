@@ -347,7 +347,7 @@
          est aliquam mus gravida tristique duis leo. Libero feugiat cubilia iaculis metus bibendum dictum massa porta platea curabitur,
           vestibulum tortor sagittis vehicula placerat est posuere a vel, nascetur et litora habitant per risus urna morbi inceptos. 
           Maecenas sociosqu natoque sed nullam mauris consequat vitae rutrum facilisi mattis dapibus, hac elementum magna libero aptent 
-          duis platea parturient felis pellentesque, penatibus quam pharetra himenaeos congue dis arcu class tellus semper.`}],_e=document.querySelector("#enlace-blog"),Ie=()=>{_e.addEventListener("click",()=>{const e=document.querySelector(".contenedor-entrada");if(!e)Me();else{d.removeChild(e);const a=document.querySelector(".pagina-blog-entradas");a.style.display="flex"}}),J()},Me=()=>{const e=document.createElement("div");e.classList.add("pagina-blog-entradas"),c.forEach(a=>{const i=document.createElement("div");i.classList.add("blog__entradas-entrada"),i.innerHTML=`
+          duis platea parturient felis pellentesque, penatibus quam pharetra himenaeos congue dis arcu class tellus semper.`}],_e=document.querySelector("#enlace-blog"),Ie=()=>{_e.addEventListener("click",()=>{const e=document.querySelector(".contenedor-entrada"),a=document.querySelector(".pagina-blog-entradas");if(!e&&!a)Me();else{d.removeChild(e);const i=document.querySelector(".pagina-blog-entradas");i.style.display="flex"}}),J()},Me=()=>{const e=document.createElement("div");e.classList.add("pagina-blog-entradas"),c.forEach(a=>{const i=document.createElement("div");i.classList.add("blog__entradas-entrada"),i.innerHTML=`
             <h2>${a.titulo}</h2>
           
             <img class="blog__img" src="${a.imagen}" alt="${a.altImagen}"/>
