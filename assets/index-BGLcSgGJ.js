@@ -379,7 +379,7 @@
   </div>
 
   <div class="titulo-contenido">
-  <a href="#blog" class="volver-entradas"> < Volver atrás</a>
+  <a href="#blog" class="volver-entradas"> < Ver todas las entradas</a>
   <h2>${n[e].titulo}</h2>
       <p>${n[e].contenido}</p>
     </div>
